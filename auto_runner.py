@@ -3,6 +3,7 @@
 import time
 import os
 import subprocess
+import sys
 
 def monitor_file(filepath):
     """Monitor a file for changes and run it when modified, with full interactivity."""
@@ -13,7 +14,11 @@ def monitor_file(filepath):
     print(f"Monitoring {filepath} for changes... (Ctrl+C to stop)")
     print("💡 You can now input text when the script runs.")
 
-    last_mod_time = os.path.getmtime(filepath)
+    try:
+        last_mod_time = os.path.getmtime(filepath)
+    except OSError as e:
+        print(f"❌ Cannot access file: {e}")
+        return
 
     while True:
         try:
@@ -25,8 +30,8 @@ def monitor_file(filepath):
                 print(f"🚀 Running {filepath}... (Type your input below)")
                 print("-" * 50)
 
-                # Run with inherited stdin/stdout/stderr (interactive!)
-                result = subprocess.run(["python", filepath], stdin=None, stdout=None, stderr=None)
+                # ✅ Correct: Use sys.executable as a string in a list
+                result = subprocess.run([sys.executable, filepath], stdin=None, stdout=None, stderr=None)
 
                 print("-" * 50)
                 if result.returncode == 0:
@@ -40,7 +45,7 @@ def monitor_file(filepath):
             print("\n🛑 Stopped monitoring.")
             break
         except Exception as e:
-            print(f"⚠️ Error: {e}")
+            print(f"⚠️ Unexpected error: {e}")
             time.sleep(1)
 
 if __name__ == "__main__":
