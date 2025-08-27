@@ -49,4 +49,4 @@ def monitor_file(filepath):
             time.sleep(1)
 
 if __name__ == "__main__":
-    monitor_file("rock_paper.py")
+    monitor_file("zigzag.py")
