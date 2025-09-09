@@ -1,0 +1,154 @@
+ 2025-09-05 01:12:28,226 - DEBUG - Start of program
+ 2025-09-05 01:12:28,227 - DEBUG - Start of factorial(5)
+ 2025-09-05 01:13:17,786 - DEBUG - i is 1, total is 1
+ 2025-09-05 01:13:28,235 - DEBUG - i is 2, total is 2
+ 2025-09-05 01:13:33,604 - DEBUG - i is 3, total is 6
+ 2025-09-05 01:13:35,603 - DEBUG - i is 4, total is 24
+ 2025-09-05 01:13:36,708 - DEBUG - i is 5, total is 120
+ 2025-09-05 01:13:37,476 - DEBUG - End of factorial(5)
+ 2025-09-06 01:24:15,685 - DEBUG - Start the program
+ 2025-09-06 01:24:15,685 - DEBUG - Start of the loop 
+ 2025-09-06 01:24:18,935 - DEBUG - End of the loop heads
+ 2025-09-06 01:24:18,935 - DEBUG - First Check Wrong heads1
+ 2025-09-06 01:24:22,191 - DEBUG - Second Check tails1
+ 2025-09-06 01:24:22,191 - DEBUG - Second Check Wrong tails1
+ 2025-09-06 01:24:22,192 - DEBUG - End of the Program tails1
+ 2025-09-06 02:10:21,822 - DEBUG - Start the program
+ 2025-09-06 02:10:21,822 - DEBUG - Start of the loop 
+ 2025-09-06 02:10:32,055 - DEBUG - End of the loop heads
+ 2025-09-06 02:10:32,055 - DEBUG - First Check Wrong headstails
+ 2025-09-06 02:10:36,847 - DEBUG - Second Check tailstails
+ 2025-09-06 02:10:36,847 - DEBUG - Second Check Right tailstails
+ 2025-09-06 02:10:36,847 - DEBUG - End of the Program tailstails
+ 2025-09-06 18:58:05,689 - DEBUG - Start the program
+ 2025-09-06 18:58:05,689 - DEBUG - Start of the loop 
+ 2025-09-06 18:58:08,928 - DEBUG - End of the loop tail
+ 2025-09-06 18:58:08,928 - DEBUG - Start of the loop tail
+ 2025-09-06 18:58:28,146 - DEBUG - End of the loop hhea
+ 2025-09-06 18:58:28,147 - DEBUG - Start of the loop hhea
+ 2025-09-06 18:58:32,235 - DEBUG - End of the loop heads
+ 2025-09-06 18:58:32,235 - DEBUG - First Check Wrong headstails
+ 2025-09-06 18:58:37,780 - DEBUG - Second Check tailstails
+ 2025-09-06 18:58:37,780 - DEBUG - Second Check Right tailstails
+ 2025-09-06 18:58:37,780 - DEBUG - End of the Program tailstails
+ 2025-09-06 18:58:46,421 - DEBUG - Start the program
+ 2025-09-06 18:58:46,421 - DEBUG - Start of the loop 
+ 2025-09-06 18:58:49,581 - DEBUG - End of the loop tails
+ 2025-09-06 18:58:49,581 - DEBUG - First Check tailstails
+ 2025-09-06 18:58:49,581 - DEBUG - End of the Program tailstails
+ 2025-09-06 18:59:38,443 - DEBUG - Start the program
+ 2025-09-06 18:59:38,443 - DEBUG - Start of the loop 
+ 2025-09-06 18:59:42,499 - DEBUG - End of the loop tails
+ 2025-09-06 18:59:42,499 - DEBUG - First Check tailstails
+ 2025-09-06 18:59:42,499 - DEBUG - End of the Program tailstails
+ 2025-09-06 18:59:42,499 - DEBUG - ================================
+ 2025-09-06 19:00:01,822 - DEBUG - Start the program
+ 2025-09-06 19:00:01,822 - DEBUG - Start of the loop 
+ 2025-09-06 19:00:05,134 - DEBUG - End of the loop tails
+ 2025-09-06 19:00:05,134 - DEBUG - First Check tailstails
+ 2025-09-06 19:00:05,134 - DEBUG - End of the Program tailstails
+ 2025-09-06 19:00:05,134 - DEBUG - ================================
+ 2025-09-06 19:01:46,370 - DEBUG - Start the program
+ 2025-09-06 19:01:46,370 - DEBUG - Start of the loop 
+ 2025-09-06 19:01:49,714 - DEBUG - End of the loop tails
+ 2025-09-06 19:01:49,714 - DEBUG - 0
+ 2025-09-06 19:01:49,715 - DEBUG - First Check tails tails
+ 2025-09-06 19:01:49,715 - DEBUG - End of the Program tailstails
+ 2025-09-06 19:01:49,715 - DEBUG - ================================
+ 2025-09-06 19:02:13,254 - DEBUG - Start the program
+ 2025-09-06 19:02:13,254 - DEBUG - Start of the loop 
+ 2025-09-06 19:02:16,814 - DEBUG - End of the loop heads
+ 2025-09-06 19:02:16,814 - DEBUG - 0
+ 2025-09-06 19:02:16,814 - DEBUG - First Check Wrong headstails
+ 2025-09-06 19:02:19,429 - DEBUG - Second Check headstails
+ 2025-09-06 19:02:19,429 - DEBUG - Second Check Wrong headstails
+ 2025-09-06 19:02:19,429 - DEBUG - End of the Program headstails
+ 2025-09-06 19:02:19,429 - DEBUG - ================================
+ 2025-09-06 19:03:42,761 - DEBUG - Start the program
+ 2025-09-06 19:03:42,761 - DEBUG - Start of the loop 
+ 2025-09-06 19:03:46,184 - DEBUG - End of the loop heads
+ 2025-09-06 19:03:46,184 - DEBUG - 1
+ 2025-09-06 19:03:46,184 - DEBUG - First Check Wrong headstails
+ 2025-09-06 19:03:50,096 - DEBUG - Second Check headstails
+ 2025-09-06 19:03:50,097 - DEBUG - Second Check Wrong headstails
+ 2025-09-06 19:03:50,097 - DEBUG - End of the Program headstails
+ 2025-09-06 19:03:50,097 - DEBUG - ================================
+ 2025-09-06 19:03:57,049 - DEBUG - Start the program
+ 2025-09-06 19:03:57,049 - DEBUG - Start of the loop 
+ 2025-09-06 19:03:58,993 - DEBUG - End of the loop tails
+ 2025-09-06 19:03:58,993 - DEBUG - 1
+ 2025-09-06 19:03:58,993 - DEBUG - First Check Wrong tailsheads
+ 2025-09-06 19:04:03,282 - DEBUG - Second Check headsheads
+ 2025-09-06 19:04:03,282 - DEBUG - Second Check Right headsheads
+ 2025-09-06 19:04:03,282 - DEBUG - End of the Program headsheads
+ 2025-09-06 19:04:03,282 - DEBUG - ================================
+ 2025-09-06 19:04:16,557 - DEBUG - Start the program
+ 2025-09-06 19:04:16,557 - DEBUG - Start of the loop 
+ 2025-09-06 19:04:19,060 - DEBUG - End of the loop tails
+ 2025-09-06 19:04:19,060 - DEBUG - 1
+ 2025-09-06 19:04:19,060 - DEBUG - First Check Wrong tailsheads
+ 2025-09-06 19:04:22,732 - DEBUG - Second Check tailsheads
+ 2025-09-06 19:04:22,732 - DEBUG - Second Check Wrong tailsheads
+ 2025-09-06 19:04:22,732 - DEBUG - End of the Program tailsheads
+ 2025-09-06 19:04:22,732 - DEBUG - ================================
+ 2025-09-06 19:04:24,725 - DEBUG - Start the program
+ 2025-09-06 19:04:24,725 - DEBUG - Start of the loop 
+ 2025-09-06 19:04:26,893 - DEBUG - End of the loop tails
+ 2025-09-06 19:04:26,893 - DEBUG - 1
+ 2025-09-06 19:04:26,893 - DEBUG - First Check Wrong tailsheads
+ 2025-09-06 19:04:29,397 - DEBUG - Second Check headsheads
+ 2025-09-06 19:04:29,397 - DEBUG - Second Check Right headsheads
+ 2025-09-06 19:04:29,397 - DEBUG - End of the Program headsheads
+ 2025-09-06 19:04:29,397 - DEBUG - ================================
+ 2025-09-06 19:06:10,602 - DEBUG - Start the program
+ 2025-09-06 19:06:10,602 - DEBUG - Start of the loop 
+ 2025-09-06 19:06:15,706 - DEBUG - End of the loop tail
+ 2025-09-06 19:06:15,706 - DEBUG - Start of the loop tail
+ 2025-09-06 19:06:17,826 - DEBUG - End of the loop tail
+ 2025-09-06 19:06:17,827 - DEBUG - Start of the loop tail
+ 2025-09-06 19:07:01,465 - DEBUG - Start the program
+ 2025-09-06 19:07:01,465 - DEBUG - 0
+ 2025-09-06 19:07:01,465 - DEBUG - Start of the loop 
+ 2025-09-06 19:07:03,376 - DEBUG - End of the loop tail
+ 2025-09-06 19:07:03,376 - DEBUG - Start of the loop tail
+ 2025-09-06 19:07:05,784 - DEBUG - End of the loop tail
+ 2025-09-06 19:07:05,784 - DEBUG - Start of the loop tail
+ 2025-09-06 19:07:25,402 - DEBUG - End of the loop tail
+ 2025-09-06 19:07:25,403 - DEBUG - Start of the loop tail
+ 2025-09-06 19:07:43,173 - DEBUG - End of the loop tails
+ 2025-09-06 19:07:43,173 - DEBUG - 0
+ 2025-09-06 19:07:43,173 - DEBUG - First Check tails tails
+ 2025-09-06 19:07:43,173 - DEBUG - End of the Program tailstails
+ 2025-09-06 19:07:43,173 - DEBUG - ================================
+ 2025-09-06 19:07:52,470 - DEBUG - Start the program
+ 2025-09-06 19:07:52,470 - DEBUG - 1
+ 2025-09-06 19:07:52,471 - DEBUG - Start of the loop 
+ 2025-09-06 19:07:55,998 - DEBUG - End of the loop hhd
+ 2025-09-06 19:07:55,998 - DEBUG - Start of the loop hhd
+ 2025-09-06 19:08:04,287 - DEBUG - End of the loop heads
+ 2025-09-06 19:08:04,287 - DEBUG - 1
+ 2025-09-06 19:08:04,287 - DEBUG - First Check heads heads
+ 2025-09-06 19:08:04,287 - DEBUG - End of the Program headsheads
+ 2025-09-06 19:08:04,287 - DEBUG - ================================
+ 2025-09-06 19:09:03,791 - DEBUG - Start the program
+ 2025-09-06 19:09:03,791 - DEBUG - Start of the loop 
+ 2025-09-06 19:09:07,575 - DEBUG - End of the loop 
+ 2025-09-06 19:09:07,575 - DEBUG - Start of the loop 
+ 2025-09-06 19:09:11,687 - DEBUG - End of the loop hhhead
+ 2025-09-06 19:09:11,687 - DEBUG - Start of the loop hhhead
+ 2025-09-06 19:09:15,055 - DEBUG - End of the loop heads
+ 2025-09-06 19:09:15,056 - DEBUG - 0
+ 2025-09-06 19:09:15,056 - DEBUG - First Check Wrong headstails
+ 2025-09-06 19:09:18,192 - DEBUG - Second Check tailstails
+ 2025-09-06 19:09:18,192 - DEBUG - Second Check Right tailstails
+ 2025-09-06 19:09:18,192 - DEBUG - End of the Program tailstails
+ 2025-09-06 19:09:18,192 - DEBUG - ================================
+ 2025-09-06 19:09:19,449 - DEBUG - Start the program
+ 2025-09-06 19:09:19,449 - DEBUG - Start of the loop 
+ 2025-09-06 19:09:21,729 - DEBUG - End of the loop tails
+ 2025-09-06 19:09:21,729 - DEBUG - 1
+ 2025-09-06 19:09:21,729 - DEBUG - First Check Wrong tailsheads
+ 2025-09-06 19:09:23,776 - DEBUG - Second Check tailsheads
+ 2025-09-06 19:09:23,776 - DEBUG - Second Check Wrong tailsheads
+ 2025-09-06 19:09:23,776 - DEBUG - End of the Program tailsheads
+ 2025-09-06 19:09:23,776 - DEBUG - ================================
