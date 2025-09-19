@@ -64,25 +64,71 @@ print('  clear - Clears the entire board')
 print('  fill wP - Fills entire board with white pawns.')
 print('  quit - Quits the program')
 
+def isValidChessBoard(board):
+  validSquire = []
+  columns = 'abcdefgh'
+  rows = '87654321'
+
+  for col in columns:
+    for row in rows:
+      validSquire.append(col+row)
+
+  if len(board) > 64:
+    return False
+  
+  for key in board.keys():
+    if key not in validSquire:
+      return False
+  
+  pieces = {
+    'wK': 0, 'wQ': 0, 'wR': 0, 'wN': 0, 'wB': 0, 'wP': 0,
+    'bK': 0, 'bQ': 0, 'bR': 0, 'bN': 0, 'bB': 0, 'bP': 0
+  }
+  for value in board.values():
+    if value not in pieces:
+      return False
+    pieces[value] += 1
+  
+  # Check 3: Piece count rules
+  if pieces['wK'] != 1 or pieces['bK'] != 1:
+    return False
+  if pieces['wP'] > 8 or pieces['bP'] > 8:
+    return False
+  
+  black_piece_count = 0
+  white_piece_count = 0
+
+  for i, j in pieces.keys():
+    if i == 'w':
+      white_piece_count += pieces[i+j]
+    else:
+      black_piece_count += pieces[i+j]
+
+  if black_piece_count > 16 or white_piece_count > 16:
+    return False
+  
+  return True
+
 main_board = copy.copy(STARTING_PIECES)
 while True:
   print_chessboard(main_board)
-  response = input('>>>').split()
+  if isValidChessBoard(main_board):
+    response = input('>>>').split()
+    if response[0] == 'move':
+      main_board[response[2]] = main_board[response[1]]
+      del main_board[response[1]]
+    elif response[0] == 'remove':
+      del main_board[response[1]]
+    elif response[0] == 'set':
+      main_board[response[1]] = response[2]
+    elif response[0] == 'reset':
+      main_board = copy.copy(STARTING_PIECES)
+    elif response[0] == 'clear':
+      main_board = {}
+    elif response[0] == 'fill':
+      for y in '87654321':
+        for x in 'abcdefgh':
+          main_board[x+y] = response[1]
+    elif response[0] == 'quit':
+      sys.exit()
 
-  if response[0] == 'move':
-    main_board[response[2]] = main_board[response[1]]
-    del main_board[response[1]]
-  elif response[0] == 'remove':
-    del main_board[response[1]]
-  elif response[0] == 'set':
-    main_board[response[1]] = response[2]
-  elif response[0] == 'reset':
-    main_board = copy.copy(STARTING_PIECES)
-  elif response[0] == 'clear':
-    main_board = {}
-  elif response[0] == 'fill':
-    for y in '87654321':
-      for x in 'abcdefgh':
-        main_board[x+y] = response[1]
-  elif response[0] == 'quit':
-    sys.exit()
